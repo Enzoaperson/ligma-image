@@ -4,7 +4,8 @@ use raylib::color;
 pub enum LigmaColor {
     Red,
     Green,
-    Blue
+    Blue,
+    Yello
 }
 
 type LigmaShape = Vec<Vec<LigmaColor>>;
